@@ -1,0 +1,111 @@
+$primary: rgb(216, 216, 230);
+$secondary: rgb(156, 18, 156);
+$ternary: rgb(134, 134, 158);
+
+
+section {
+    padding: 100px 0px;
+}
+
+section.footer-section {
+    padding: 40px 0px;
+}
+
+
+.bg-primary {
+    background-color: $primary  !important;
+}
+
+.team-section {
+    padding: 35px 20px;
+    text-align: center;
+
+    &:hover {
+        background-color: aliceblue;
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .team-avatar {
+        width: 120px;
+        margin: 0 auto;
+        border-radius: 50%;
+
+
+    }
+}
+
+.title {
+    text-align: center;
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
+.button {
+    background-color: gold;
+    border-radius: 50px;
+
+}
+
+.bg-secondary {
+    background-color: $secondary  !important;
+}
+
+.footer-section {
+    background-color: $ternary  !important;
+}
+
+.content {
+    color: grey;
+}
+
+.serive-title {
+    font-size: xx-large;
+}
+
+.user_profile {
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.btn {
+    width: 125px;
+    height: auto;
+    float: right;
+}
+
+.card-section {
+    width: auto;
+    margin-left: auto;
+
+
+    min-height: 450px;
+    max-height: 450px;
+
+
+}
+
+.dog {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.bg-image {
+    background-image: url('../image/clouds.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Login_Section {
+    margin: auto;
+}
+
+.danger {
+    color: red;
+    margin-bottom: 10px;
+}
