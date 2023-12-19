@@ -1,6 +1,3 @@
-
-import { Navbar, NavbarBrand, Collapse, Nav, NavbarToggler, NavItem, NavLink, Col, Row, Container } from 'reactstrap';
-
 function heading() {
     return (
         <div>
